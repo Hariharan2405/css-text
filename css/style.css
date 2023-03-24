@@ -1,0 +1,88 @@
+table,th,td {
+	border:3px solid black;
+	border-collapse:collapse;
+	width:1000px;
+	height:50px;
+}
+caption{
+	font-size:50px;
+}
+.a1{
+	color:red;
+}
+.a2{
+	background-color:red;
+}
+.cen{
+	text-align:center;
+	text-align-last:center;
+}
+.rig{
+	text-align:right;
+	text-align-last:right;
+}
+.ju{
+	text-align:justify;
+	text-align-last:justify;
+}
+.r1 td{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+img.v1{
+	vertical-align:baseline;
+}
+img.v2{
+	vertical-align:text-top;
+}
+img.v3{
+	vertical-align:text-bottom;
+}
+img.v4{
+	vertical-align:sub;
+}
+img.v5{
+	vertical-align:super;
+}
+.d1{
+	text-decoration:underline red double 5px;
+}
+.d2{
+	text-decoration:overline red double 5px;
+}
+.d3{
+	text-decoration:line-through red dotted 2px;
+}
+.d4{
+	text-decoration:underline overline red double 5px;
+}
+.t1{
+	text-transform:uppercase;
+}
+.t2{
+	text-transform:lowercase;
+}
+.t3{
+	text-transform:capitalize;
+}
+.s1{
+	text-indent:25px;
+}
+.s2{
+	letter-spacing:5px;
+}
+.s3{
+	line-height:3;
+}
+.s4{
+	word-spacing:20px;
+}
+.s5{
+	white-space:wrap;
+}
+.sh2{
+	text-shadow:5px 5px red;
+}
+.sh3{
+	text-shadow:5px 5px 2px red;
+}
